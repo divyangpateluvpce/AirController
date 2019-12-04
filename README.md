@@ -1,6 +1,6 @@
 AirController
 -------------
-![Application Logo](Source Code\AirController\app\src\main\res\drawable\ic_new.png)
+![Application Logo](Source%20Code/AirController/app/src/main/res/drawable/ic_new.png)
 Wireless Keyboard and Mouse using Android Phone. Presentation Remote to use for Presentation from Laptop/ Computer. 
 
 * Laptop and PC will connect with Android mobile using Wi-Fi socket connection.
@@ -41,7 +41,7 @@ It will retuen list of java file running. Then find PID of running Process "*Air
 
     taskkill -f /PID /*PID of AirControllerServer.jar*/
 
-![Command ](Source Code\AirController\app\src\main\res\drawable\image1.png)
+![Command ](Documentation/image1.png)
 
 
 On Mobile Device Installation
