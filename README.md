@@ -49,7 +49,7 @@ It will retuen list of java file running. Then find PID of running Process "*Air
 
 On Mobile Device Installation
 ------------------------------
-First, Download APK from Application Folder.
+First, Download AirController.apk from Apk Folder.
 
 Save to your android device and Install in to Android Phone.
 
