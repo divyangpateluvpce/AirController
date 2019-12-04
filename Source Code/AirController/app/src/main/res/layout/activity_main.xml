@@ -1,1 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/touch_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="370"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/settings_button"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/keyboard"
+                android:drawableLeft="@drawable/keyboard"
+                android:text="@string/keyboard" />
+
+            <Button
+                android:id="@+id/btn_presentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Presentation" />
+
+            <Button
+                android:id="@+id/settings_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawableStart="@drawable/settings"
+                android:drawableLeft="@drawable/settings"
+                android:text="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
