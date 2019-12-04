@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AirController</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="host">Host</string>
+    <string name="port">Port</string>
+    <string name="keyboard_off">Keyboard OFF</string>
+    <string name="keyboard_on">Keyboard ON</string>
+</resources>
