@@ -38,7 +38,8 @@ Stop The Server.
 
 Open New CMD window 
 
-    jsp  
+    jps
+   
     
 It will retuen list of java file running. Then find PID of running Process "*AirControllerServer.jar*".
 
